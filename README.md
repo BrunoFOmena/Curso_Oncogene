@@ -34,11 +34,7 @@ As ferramentas usadas ao longo do curso incluem:
 - **FastQC**: Para controle de qualidade das leituras de sequenciamento.
 - **Git LFS**: Para armazenamento e gerenciamento de arquivos grandes.
 
-## Como Reproduzir as Análises
-
-Para reproduzir as análises contidas neste repositório, siga os passos abaixo:
-
-### 1. Clonar o Repositório
+## Clonar o Repositório
 ```bash
 git clone https://github.com/seu-usuario/Curso-ONCOGEN-2022.git
 cd Curso-ONCOGEN-2022
