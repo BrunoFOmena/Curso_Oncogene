@@ -32,7 +32,6 @@ As ferramentas usadas ao longo do curso incluem:
 - **bcftools**: Para chamada e filtragem de variantes.
 - **SnpEff**: Para anotação de variantes.
 - **FastQC**: Para controle de qualidade das leituras de sequenciamento.
-- **Git LFS**: Para armazenamento e gerenciamento de arquivos grandes.
 
 ## Clonar o Repositório
 ```bash
