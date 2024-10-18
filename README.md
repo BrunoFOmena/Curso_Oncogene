@@ -9,8 +9,6 @@ O curso visa ensinar ferramentas e técnicas modernas de bioinformática para an
 - **Chamada de variantes** (SNPs e INDELs).
 - **Anotação e interpretação de variantes**.
 
-Durante o curso, foram utilizadas leituras de sequenciamento de DNA de Escherichia coli e genomas humanos para identificar e interpretar variantes genéticas.
-
 ## Estrutura do Repositório
 
 O repositório está organizado em pastas específicas para cada etapa do pipeline de análise genômica:
