@@ -18,6 +18,7 @@ O repositório está organizado em pastas específicas para cada etapa do pipeli
 - **`alignment/`**: Arquivos de alinhamento das sequências com o genoma de referência (BAM/SAM).
 - **`variants/`**: Arquivos VCF contendo as variantes chamadas nas amostras.
 - **`annotations/`**: Relatórios e anotações de variantes gerados com **SnpEff**.
+- **link para o drive contendo os arquivos de referencia: https://drive.google.com/drive/folders/1JV3XRY-s9UbgMxbq_uqc8YKaFfU8FFl_?usp=sharing**
 
 ## Ferramentas e Softwares Utilizados
 
