@@ -1,12 +1,11 @@
-```bash
-# Criar o ambiente Conda
+#criar ambiente conda
 conda create -n curso_oncogene
 
 # Ativar o ambiente
 conda activate curso_oncogene
 
 # Para desativar o ambiente
-conda deactivate
+#conda deactivate
 
 conda install -c bioconda bwa gatk4 freebayes snpeff fastqc cutadapt bcftools
 
@@ -36,13 +35,13 @@ samtools faidx ucsc-chr13-chr17.hg19.fa
 
 #verificar contigs no arquivo de referencia:
 grep '>' ucsc-chr13-chr17.hg19.fa
-resposta:
->chr13
->chr17
+#resposta:
+#>chr13
+#>chr17
 
 #contar as linhas de DNA no arquivo
 grep -v '>' ucsc-chr13-chr17.hg19.fa | wc -l
-resposta: 3927303
+#resposta: 3927303
 
 #ALINHAMENTO
 bwa mem -t 2 -R "@RG\tID:510-7\tSM:510-7\tPL:Illumina\tPU:unit1\tLB:lib1" ucsc-chr13-chr17.hg19.fa 510-7-BRCA_S8_L001_R1_001.fastq.gz 510-7-BRCA_S8_L001_R2_001.fastq.gz > 510-7-BRCA_S8.sam
@@ -95,4 +94,3 @@ bcftools filter -i 'QUAL>30' 510-7-BRCA_S8.vcf -o 510-7-BRCA_S8.filtered.vcf
 
 ###Criar relatórios customizados e tabelados
 bcftools query -f '%CHROM\t%POS\t%REF\t%ALT\t%ANN\n' 510-7-BRCA_S8.ann.vcf > variantes_anotadas.tsv
-
